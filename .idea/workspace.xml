@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34b0e8a5-3f59-4e17-a4bd-013115e98426" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesImpl.java" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/cosw/samples/SpringDataRestApiApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/cosw/samples/SpringDataRestApiApplicationTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,14 +14,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PatientsController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PatientsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="241">
               <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringDataRestApiApplicationTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/eci/cosw/samples/SpringDataRestApiApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,6 +70,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesStub.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/eci/cosw/samples/SpringDataRestApiApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -163,6 +173,27 @@
               <item name="cosw" type="462c0819:PsiDirectoryNode" />
               <item name="samples" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-data-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB5-Spring-Data-JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-data-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB5-Spring-Data-JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-data-rest-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB5-Spring-Data-JPA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -452,11 +483,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="241">
           <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/eci/cosw/samples/SpringDataRestApiApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
