@@ -27,6 +27,11 @@ public class PatientServicesImpl implements PatientServices {
     @Override
     public Paciente getPatient(int id, String tipoid) throws ServicesException {
         Paciente paciente = pR.findOne(new PacienteId(id, tipoid));
+        
+        if (paciente==null){
+            throw new ServicesException("No Existe el paciente");
+        }
+        
         return paciente;
     }
 

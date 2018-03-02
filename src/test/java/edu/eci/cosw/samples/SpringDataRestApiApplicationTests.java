@@ -194,7 +194,7 @@ public class SpringDataRestApiApplicationTests {
 
     }
 
-        
+
 	@Test
 	public void contextLoads() {
 	}

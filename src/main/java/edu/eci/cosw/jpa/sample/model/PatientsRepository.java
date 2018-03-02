@@ -10,5 +10,5 @@ import java.util.List;
 public interface PatientsRepository extends JpaRepository<Paciente, PacienteId> {
 
     @Query("FROM Paciente p WHERE size(p.consultas)>= :top")
-    List<Paciente> topPacientes(@Param(value = "top")int top1);
+    List<Paciente> topPacientes(@Param(value = "top") int top1);
 }
