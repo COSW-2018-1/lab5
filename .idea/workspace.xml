@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34b0e8a5-3f59-4e17-a4bd-013115e98426" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_10_2_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_0_DATAJPA_1261_SNAPSHOT.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/jpa/sample/model/PatientsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/jpa/sample/model/PatientsRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/SpringDataRestApiApplication.java" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/SpringDataRestApiApplication.java" />
+      <change beforePath="$PROJECT_DIR$/spring-data-rest-api.iml" afterPath="$PROJECT_DIR$/spring-data-rest-api.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/cosw/samples/SpringDataRestApiApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/cosw/samples/SpringDataRestApiApplicationTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,22 +20,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServicesException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/ServicesException.java">
+      <file leaf-file-name="SpringDataRestApiApplicationTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/eci/cosw/samples/SpringDataRestApiApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatientsRepository.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/jpa/sample/model/PatientsRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="155">
+              <caret line="202" column="5" lean-forward="true" selection-start-line="202" selection-start-column="5" selection-end-line="202" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,6 +45,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>@SpringBootApplication</find>
+      <find>edu.eci.cosw.jpa.sample.model</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,9 +65,9 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesStub.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/eci/cosw/samples/SpringDataRestApiApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/SpringDataRestApiApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/cosw/jpa/sample/model/PatientsRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/eci/cosw/samples/SpringDataRestApiApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -110,10 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,15 +138,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cosw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-data-rest-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LAB5-Spring-Data-JPA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cosw" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-data-rest-api" type="b2602c69:ProjectViewProjectNode" />
@@ -210,6 +193,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpringDataRestApiApplication">
+  <component name="RunManager" selected="JUnit.SpringDataRestApiApplicationTests.getPatientNOexiste">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -282,6 +269,31 @@
       <option name="MAIN_CLASS_NAME" value="edu.eci.cosw.samples.SpringDataRestApiApplicationTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SpringDataRestApiApplicationTests.getPatientNOexiste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.eci.cosw.samples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-data-rest-api" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.eci.cosw.samples" />
+      <option name="MAIN_CLASS_NAME" value="edu.eci.cosw.samples.SpringDataRestApiApplicationTests" />
+      <option name="METHOD_NAME" value="getPatientNOexiste" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -353,14 +365,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SpringDataRestApiApplicationTests" />
       <item index="1" class="java.lang.String" itemvalue="Application.SpringDataRestApiApplication" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SpringDataRestApiApplicationTests.getPatientNOexiste" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.SpringDataRestApiApplication" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringDataRestApiApplicationTests.getPatientNOexiste" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.SpringDataRestApiApplicationTests" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SpringDataRestApiApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -378,30 +392,65 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringDataRestApiApplicationTests - 2018.03.02 at 07h 14m 03s.xml">
-      <configuration name="SpringDataRestApiApplicationTests" configurationId="JUnit" />
+    <history-entry file="SpringDataRestApiApplicationTests_getPatientNOexiste - 2018.03.02 at 10h 03m 09s.xml">
+      <configuration name="SpringDataRestApiApplicationTests.getPatientNOexiste" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringDataRestApiApplicationTests - 2018.03.02 at 07h 54m 59s.xml">
-      <configuration name="SpringDataRestApiApplicationTests" configurationId="JUnit" />
+    <history-entry file="SpringDataRestApiApplicationTests_getPatientNOexiste - 2018.03.02 at 10h 03m 32s.xml">
+      <configuration name="SpringDataRestApiApplicationTests.getPatientNOexiste" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpringDataRestApiApplicationTests_getPatientNOexiste - 2018.03.02 at 10h 04m 06s.xml">
+      <configuration name="SpringDataRestApiApplicationTests.getPatientNOexiste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDataRestApiApplicationTests_getPatientNOexiste - 2018.03.02 at 10h 04m 46s.xml">
+      <configuration name="SpringDataRestApiApplicationTests.getPatientNOexiste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDataRestApiApplicationTests_getPatientNOexiste - 2018.03.02 at 10h 05m 20s.xml">
+      <configuration name="SpringDataRestApiApplicationTests.getPatientNOexiste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDataRestApiApplicationTests_getPatientNOexiste - 2018.03.02 at 10h 05m 50s.xml">
+      <configuration name="SpringDataRestApiApplicationTests.getPatientNOexiste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDataRestApiApplicationTests_getPatientNOexiste - 2018.03.02 at 10h 06m 11s.xml">
+      <configuration name="SpringDataRestApiApplicationTests.getPatientNOexiste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDataRestApiApplicationTests_getPatientNOexiste - 2018.03.02 at 10h 06m 28s.xml">
+      <configuration name="SpringDataRestApiApplicationTests.getPatientNOexiste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDataRestApiApplicationTests_getPatientNOexiste - 2018.03.02 at 10h 07m 41s.xml">
+      <configuration name="SpringDataRestApiApplicationTests.getPatientNOexiste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDataRestApiApplicationTests_getPatientNOexiste - 2018.03.02 at 10h 07m 58s.xml">
+      <configuration name="SpringDataRestApiApplicationTests.getPatientNOexiste" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5299838" sideWeight="0.5030211" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5299838" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28021148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2839879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -412,9 +461,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -425,6 +472,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/ServicesException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/jpa/sample/model/PatientsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesStub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -510,21 +573,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/SpringDataRestApiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#574#575#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -557,16 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/eci/cosw/samples/SpringDataRestApiApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
@@ -585,10 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/ServicesException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="509">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -596,8 +639,34 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/jpa/sample/model/PatientsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/ServicesException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/eci/cosw/samples/SpringDataRestApiApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="202" column="5" lean-forward="true" selection-start-line="202" selection-start-column="5" selection-end-line="202" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

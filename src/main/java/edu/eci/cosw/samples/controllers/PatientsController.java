@@ -40,42 +40,47 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/pacientes")
 public class PatientsController {
-    
-    
+
     @Autowired
     PatientServices services;
 
-    @RequestMapping(path = "/topconsultas/{n}",method = RequestMethod.GET)
+    @RequestMapping(path = "/topconsultas/{n}", method = RequestMethod.GET)
     @ResponseBody
     public ResponseEntity<List<Paciente>> topPacientes(@PathVariable int n) {
         try {
-            return ResponseEntity.ok().body(services.topPatients(n));
+
+            Paciente paciente = services.getPatient(n, "cc");
+
+            if (paciente != null) {
+                return ResponseEntity.ok().body(services.topPatients(n));
+            } else {
+                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            }
 
         } catch (ServicesException ex) {
 
             Logger.getLogger(PatientsController.class.getName()).log(Level.SEVERE, null, ex);
-            return new ResponseEntity<>(HttpStatus.EXPECTATION_FAILED);
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-    
-    @RequestMapping(path = "/{id}",method = RequestMethod.GET)
+
+    @RequestMapping(path = "/{id}", method = RequestMethod.GET)
     @ResponseBody
     public ResponseEntity<Paciente> getPaciente(@PathVariable int id) {
         try {
-            Paciente p=services.getPatient(id, "cc");
-            if (p!=null){
-                return ResponseEntity.ok().body(p);        
-            }
-            else{
+            Paciente p = services.getPatient(id, "cc");
+            if (p != null) {
+                return ResponseEntity.ok().body(p);
+            } else {
                 return new ResponseEntity<>(HttpStatus.NOT_FOUND);
             }
-            
+
         } catch (ServicesException ex) {
 
             Logger.getLogger(PatientsController.class.getName()).log(Level.SEVERE, null, ex);
-            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);            
-        }         
-        
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+
     }
-    
+
 }
