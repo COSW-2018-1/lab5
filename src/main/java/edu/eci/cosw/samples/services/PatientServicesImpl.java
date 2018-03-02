@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+@Service // SE QUITO DEL STUB
 public class PatientServicesImpl implements PatientServices {
 
 
