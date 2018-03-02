@@ -45,8 +45,6 @@ public class PatientsController {
     @Autowired
     PatientServices services;
 
-
-
     @RequestMapping(path = "/topconsultas/{n}",method = RequestMethod.GET)
     @ResponseBody
     public ResponseEntity<List<Paciente>> topPacientes(@PathVariable int n) {
