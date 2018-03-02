@@ -26,7 +26,7 @@ public class PatientServicesImpl implements PatientServices {
      */
     @Override
     public Paciente getPatient(int id, String tipoid) throws ServicesException {
-        Paciente paciente = pR.findOne(new PacienteId(id,tipoid));
+        Paciente paciente = pR.findOne(new PacienteId(id, tipoid));
         return paciente;
     }
 

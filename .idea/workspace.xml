@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34b0e8a5-3f59-4e17-a4bd-013115e98426" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesImpl.java" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesStub.java" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesStub.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,33 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PatientsController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PatientsController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatientServices.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServices.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatientServicesImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="343">
+              <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,6 +60,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/cosw/jpa/sample/model/PatientsRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesStub.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java" />
       </list>
     </option>
   </component>
@@ -445,21 +424,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesStub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="80" lean-forward="true" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -471,10 +450,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/services/PatientServicesImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/eci/cosw/samples/controllers/PatientsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="343">
+          <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
